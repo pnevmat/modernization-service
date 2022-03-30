@@ -1,0 +1,97 @@
+.container {
+  text-align: left;
+}
+
+.arrowBackWrapper {
+  margin-bottom: 10px;
+}
+
+.arrowBackWrapper > svg {
+  fill: #0093c0;
+}
+
+.arrowBackWrapper > svg:hover {
+  cursor: pointer;
+  fill: #00c3ff;
+}
+
+.photoWrapper {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.projectPhoto {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 7px;
+}
+
+.projectDescription {
+  display: block;
+  padding-left: 50px;
+  margin-bottom: 20px;
+}
+
+.stagesList {
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 15px;
+  margin-top: 0;
+}
+
+.stagesList :not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.stagesItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  border: 1px solid #b9b9b9;
+  border-radius: 15px;
+}
+
+.stagesItem:hover {
+  cursor: pointer;
+  background-color: #b9b9b9;
+}
+
+.stagesItem > .stagesNameWrapper {
+  margin-bottom: 0;
+}
+
+.stagesNameWrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 200px;
+}
+
+.stagesNameWrapper > .stagesImg {
+  margin-bottom: 0;
+}
+
+.stagesImg {
+  width: 100%;
+  max-width: 50px;
+  border-radius: 7px;
+}
+
+.stagesBtn {
+  width: 100px;
+  height: 40px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #386dff;
+}
+
+.stagesBtn:hover {
+  cursor: pointer;
+  background-color: #618afd;
+}

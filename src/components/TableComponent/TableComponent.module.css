@@ -1,0 +1,39 @@
+.list {
+  padding: 15px;
+  border: 1px solid #000;
+  border-radius: 15px;
+}
+
+.list :not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  border-bottom: 1px solid #b9b9b9;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.item:hover {
+  cursor: pointer;
+  background-color: #b9b9b9;
+}
+
+.item > .img {
+  padding-bottom: 0;
+  border: none;
+  margin-bottom: 0;
+}
+
+.img {
+  width: 100%;
+  max-width: 50px;
+  border-radius: 7px;
+  margin-right: 20px;
+}
